@@ -10,7 +10,7 @@ set(SRCS
   src/libfoo.cpp
 )
 
-qibuild_create_lib(libfoo
+qi_create_lib(libfoo
   ${PUBLIC_HEADERS}
   ${SRCS}
 )
