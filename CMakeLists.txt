@@ -16,3 +16,5 @@ qi_create_lib(libfoo
   ${PUBLIC_HEADERS}
   ${SRCS}
 )
+
+qi_stage_lib(libfoo)
