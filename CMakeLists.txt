@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 2.8)
 project(LibFoo)
 find_package(qibuild)
 
+include_directories(".")
+
 set(PUBLIC_HEADERS
   libfoo/libfoo.hpp
 )
