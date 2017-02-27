@@ -15,3 +15,6 @@ add_library(libfoo
   ${PUBLIC_HEADERS}
   ${SRCS}
 )
+
+set(CMAKECONFIG_INSTALL_DIR "${CMAKE_INSTALL_LIBDIR}/cmake/libfoo")
+include(CMakePackageConfigHelpers
