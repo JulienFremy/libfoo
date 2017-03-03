@@ -12,7 +12,9 @@ set(SRCS
 )
 
 add_library(libfoo
+  SHARED
   ${PUBLIC_HEADERS}
   ${SRCS}
 )
 
+install(TARGETS libfoo DESTINATION ${CMAKE_INSTALL_PREFIX})
