@@ -16,5 +16,3 @@ add_library(libfoo
   ${SRCS}
 )
 
-set(CMAKECONFIG_INSTALL_DIR "${CMAKE_INSTALL_LIBDIR}/cmake/libfoo")
-include(CMakePackageConfigHelpers
